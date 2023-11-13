@@ -1,0 +1,18 @@
+ let n = 1;
+ while (n <= 5) {
+ console.log("n=" + n);
+  n += 1;
+ }
+
+ for (let i = 1 ;i <= 5 ;i += 1) {
+  console.log("i =" + 1);
+}
+
+ const array = [1,2,3,4,5,6,7];
+
+for (let i = 0; i < array.length; i += 1){
+  if (array[i] === 5) {
+    console.log("array['+i+]=", array[i]);
+   break;
+ }
+}
